@@ -10,14 +10,15 @@ interface TrackProps {
     return (
       <section>
            <img src={props.image} alt= "Track Artwork" />
-        <h2>{props.title}</h2>
-          <p>
+        <h1>{props.title}</h1>
+          <h3>
             {props.releaseDate}
-          </p>
-        <p>
+          </h3>
+        <h3>
             {props.numStreams}
-        </p>
-        (<a href={props.spotifyLink}>map link</a>)
+        </h3>
+        (<a href={props.spotifyLink}>Spotify Link</a>)
+        <p>{""}</p>
       </section>
     );
   }
